@@ -1,6 +1,33 @@
+import jdk.jshell.spi.ExecutionControl;
+
 import java.util.Scanner;
 
 public class Main {
+
+    public static void dopisywanieLiczb(int liczba) {
+        switch (liczba) {
+            case 1:
+                System.out.println(LiczbyEnum.JEDEN);
+                break;
+            case 2:
+                System.out.println(LiczbyEnum.DWA);
+                break;
+            case 3:
+                System.out.println(LiczbyEnum.TRZY );
+                break;
+            case 4:
+                System.out.println(LiczbyEnum.CZTERY);
+                break;
+            case 5:
+                System.out.println(LiczbyEnum.PIEC);
+                break;
+            case 6:
+                System.out.println(LiczbyEnum.SZESC);
+
+
+        }
+
+    }
 
     public static void main(String[] args) {
 
@@ -18,7 +45,32 @@ public class Main {
         */
 
         /* statusy i wybór ze switch case to najczęstsze użycia enumów, enumy są często używane
-        * w różnego rodzaju listach, selectach jako krótkie opcje wyboru np. jako status A, X (Aktualny, Usunięty) */
+         * w różnego rodzaju listach, selectach jako krótkie opcje wyboru np. jako status A, X (Aktualny, Usunięty) */
+
+        int liczba;
+        Scanner skan = new Scanner(System.in);
+
+        while (true) {
+            System.out.println("podaj liczbę");
+            liczba = skan.nextInt();
+            dopisywanieLiczb(liczba);
+            if (liczba == 0) {
+                System.out.println(StatusEnum.KONIEC);
+                break;
+            }
+            System.out.println(StatusEnum.KONTYNUUJEMY);
+        }
 
     }
+
+
 }
+
+enum LiczbyEnum {
+    JEDEN, DWA, TRZY, CZTERY, PIEC, SZESC;
+}
+
+enum StatusEnum {
+    KONTYNUUJEMY, KONIEC;
+}
+
