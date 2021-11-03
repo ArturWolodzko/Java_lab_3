@@ -6,6 +6,9 @@ class student{
     String nazwisko;
     int wiek;
     boolean zdał = true;
+
+    List<student> = new.ArrayList;
+
 }
 
 public class Main {
