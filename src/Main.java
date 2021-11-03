@@ -48,12 +48,7 @@ public class Main {
          * w różnego rodzaju listach, selectach jako krótkie opcje wyboru np. jako status A, X (Aktualny, Usunięty) */
 
         int liczba;
-        Scanner skan = new Scanner(System.in);
-
-        while (true) {
-            System.out.println("podaj liczbę");
-            liczba = skan.nextInt();
-            dopisywanieLiczb(liczba);
+        Scanner skan = new Scanner(System.in);5
             if (liczba == 0) {
                 System.out.println(StatusEnum.KONIEC);
                 break;
