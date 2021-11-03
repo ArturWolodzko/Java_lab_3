@@ -1,6 +1,12 @@
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
+class student{
+    String imie;
+    String nazwisko;
+    int wiek;
+    boolean zdał = true;
+}
 
 public class Main {
 
@@ -14,5 +20,6 @@ public class Main {
             c) wyświetlić dane z tablicy, użyć pętli for lub forEach
             d) dane powinny być estetycznie przedstawione
          */
+
     }
 }
