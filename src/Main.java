@@ -38,7 +38,9 @@ public class Main {
         student2.zdał=false;
 
 
-        System.out.println();
+        for (Student s : studentList){
+            System.out.println("\nimię: "+ s.imie + "\nnaziwsko: "+s.nazwiwsko +"\nwiek:" + s.wiek +"\nczy zdał: "+ s.zdał);
+        }
 
 
 
