@@ -16,6 +16,8 @@ public class Main {
             d) dane powinny być estetycznie przedstawione
          */
 
+        List<Student> studentList= new ArrayList<>()
+
     }
 }
 class Student{
