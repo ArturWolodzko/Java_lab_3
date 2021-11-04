@@ -1,14 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
-class Student{
-    String imie;
-    String nazwisko;
-    int wiek;
-    boolean zdał = true;
 
-
-}
 
 public class Main {
 
@@ -24,4 +17,10 @@ public class Main {
          */
 
     }
+}
+class Student{
+    String imie;
+    String nazwiwsko;
+    int wiek;
+    boolean zdał=true;
 }
