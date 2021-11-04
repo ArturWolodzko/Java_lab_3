@@ -38,6 +38,9 @@ public class Main {
         student2.zdał=false;
 
 
+        System.out.println();
+
+
 
     }
 }
