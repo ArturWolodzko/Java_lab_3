@@ -16,39 +16,45 @@ public class Main {
             d) dane powinny być estetycznie przedstawione
          */
 
-        List<Student> studentList= new ArrayList<>();
+        List<Student> studentList = new ArrayList<>();
 
-        Student student= new Student();
+        Student student = new Student();
         student.imie = "Artur";
-        student.nazwiwsko="wołodźko";
-        student.wiek=21;
-        student.zdał=true;
+        student.nazwiwsko = "wołodźko";
+        student.wiek = 21;
+        student.zdał = true;
+        studentList.add(student);
 
 
         student = new Student();
-        student.imie="bartek";
-        student.nazwiwsko="filipiak";
-        student.wiek=22;
-        student.zdał=false;
+        student.imie = "bartek";
+        student.nazwiwsko = "filipiak";
+        student.wiek = 22;
+        student.zdał = false;
+        studentList.add(student);
 
         student = new Student();
-        student.imie="stefan";
-        student.nazwiwsko="psikuta";
-        student.wiek=23;
-        student.zdał=false;
+        student.imie = "stefan";
+        student.nazwiwsko = "psikuta";
+        student.wiek = 23;
+        student.zdał = false;
+        studentList.add(student);
 
 
-        for (Student s : studentList){
-            System.out.println("\nimię: "+ s.imie + "\nnaziwsko: "+s.nazwiwsko +"\nwiek:" + s.wiek +"\nczy zdał: "+ s.zdał);
+        for (Student s : studentList) {
+            System.out.println("\nimię: " + s.imie + "\nnaziwsko: " + s.nazwiwsko + "\nwiek:" + s.wiek + "\nczy zdał: " +
+                    (s.zdał));
         }
-
 
 
     }
 }
-class Student{
+
+class Student {
     String imie;
     String nazwiwsko;
     int wiek;
-    boolean zdał=true;
+    boolean zdał = true;
 }
+
+
