@@ -25,17 +25,17 @@ public class Main {
         student.zdał=true;
 
 
-        Student student1 = new Student();
-        student1.imie="bartek";
-        student1.nazwiwsko="filipiak";
-        student1.wiek=22;
-        student1.zdał=false;
+        student = new Student();
+        student.imie="bartek";
+        student.nazwiwsko="filipiak";
+        student.wiek=22;
+        student.zdał=false;
 
-        Student student2= new Student();
-        student2.imie="stefan";
-        student2.nazwiwsko="psikuta";
-        student2.wiek=23;
-        student2.zdał=false;
+        student = new Student();
+        student.imie="stefan";
+        student.nazwiwsko="psikuta";
+        student.wiek=23;
+        student.zdał=false;
 
 
         for (Student s : studentList){
