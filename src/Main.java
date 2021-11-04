@@ -40,31 +40,28 @@ public class Main {
         student.zdał = false;
         studentList.add(student);
 
-        student=new Student();
-        student.imie="maciej";
-        student.nazwiwsko="nowicki";
-        student.wiek=21;
-        student.zdał=true;
+        student = new Student();
+        student.imie = "maciej";
+        student.nazwiwsko = "nowicki";
+        student.wiek = 21;
+        student.zdał = true;
         studentList.add(student);
 
-        List<Samochod> samochodList=new ArrayList<>();
+        List<Samochod> samochodList = new ArrayList<>();
 
-        Samochod samochod=new Samochod();
-        samochod.marka="volkswagen";
-        samochod.model="golf mk2";
-        samochod.drzwi=5;
-        samochod.poj= 1.6;
+        Samochod samochod = new Samochod();
+        samochod.marka = "volkswagen";
+        samochod.model = "golf mk2";
+        samochod.drzwi = 5;
+        samochod.poj = 1.6;
         samochodList.add(samochod);
 
-        samochod=new Samochod();
-        samochod.marka="volkswagen";
-        samochod.model="transporter T3";
-        samochod.drzwi=3;
-        samochod.poj=1.9;
+        samochod = new Samochod();
+        samochod.marka = "volkswagen";
+        samochod.model = "transporter T3";
+        samochod.drzwi = 3;
+        samochod.poj = 1.9;
         samochodList.add(samochod);
-
-
-
 
 
         for (Student s : studentList) {
@@ -72,8 +69,8 @@ public class Main {
                     (s.zdał));
         }
 
-        for(Samochod p : samochodList){
-            System.out.println("\nmarka: " + p.marka + "\nmodel: " + p.model +"\nilość drzwi: " +p.drzwi +"\npojemność: "+ p.poj);
+        for (Samochod p : samochodList) {
+            System.out.println("\nmarka: " + p.marka + "\nmodel: " + p.model + "\nilość drzwi: " + p.drzwi + "\npojemność: " + p.poj);
         }
 
 
@@ -86,7 +83,8 @@ class Student {
     int wiek;
     boolean zdał = true;
 }
-class Samochod{
+
+class Samochod {
     String marka;
     String model;
     double poj;
