@@ -16,7 +16,28 @@ public class Main {
             d) dane powinny być estetycznie przedstawione
          */
 
-        List<Student> studentList= new ArrayList<>()
+        List<Student> studentList= new ArrayList<>();
+
+        Student student= new Student();
+        student.imie = "Artur";
+        student.nazwiwsko="wołodźko";
+        student.wiek=21;
+        student.zdał=true;
+
+
+        Student student1 = new Student();
+        student1.imie="bartek";
+        student1.nazwiwsko="filipiak";
+        student1.wiek=22;
+        student1.zdał=false;
+
+        Student student2= new Student();
+        student2.imie="stefan";
+        student2.nazwiwsko="psikuta";
+        student2.wiek=23;
+        student2.zdał=false;
+
+
 
     }
 }
