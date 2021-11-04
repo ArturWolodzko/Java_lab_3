@@ -1,13 +1,12 @@
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
-class student{
+class Student{
     String imie;
     String nazwisko;
     int wiek;
     boolean zdał = true;
 
-    List<student> = new.ArrayList;
 
 }
 
