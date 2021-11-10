@@ -48,7 +48,7 @@ public class Main {
          * w różnego rodzaju listach, selectach jako krótkie opcje wyboru np. jako status A, X (Aktualny, Usunięty) */
 
         int liczba;
-        Scanner skan = new Scanner(System.in);5
+        Scanner skan = new Scanner(System.in);
             if (liczba == 0) {
                 System.out.println(StatusEnum.KONIEC);
                 break;
@@ -59,7 +59,7 @@ public class Main {
     }
 
 
-}
+
 
 enum LiczbyEnum {
     JEDEN, DWA, TRZY, CZTERY, PIEC, SZESC;
