@@ -21,6 +21,8 @@ public class Main {
 
         System.out.printf("X = %d\nY = %d\nZ = %d",punkt.GetX(),punkt.GetY(),punkt.GetZ());
 
+        Punkt p2 = new Punkt
+
 
 
 

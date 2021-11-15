@@ -42,7 +42,7 @@ public class Punkt {
     }
 
     public void suma() {
-        System.out.println("suma dodawania wynosi:" + (pY + pX + pZ));
+        System.out.println("suma dodawania wynosi:");
     }
 
     @Override
