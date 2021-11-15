@@ -19,10 +19,11 @@ public class Main {
         punkt.toString();
         System.out.println(punkt);
 
+
         punkt.GetX();
         punkt.GetY();
         punkt.GetZ();
-        System.out.println(punkt.GetZ());
+
 
 
 
