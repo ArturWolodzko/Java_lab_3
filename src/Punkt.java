@@ -4,10 +4,23 @@ public class Punkt {
 
     private int pX,pY,pZ;
 
+    Punkt(){
+
+    }
+
+    Punkt(int pX){
+        this.pX=pX;
+    }
+    Punkt(int pY,int pZ){
+        this.pY=pY;
+        this.pZ=pZ;
+    }
+
 
 
     /* stworzyć
         a) pusty konstruktor,
+
         b) konstruktor inicjalizujacy zmienną pX,
         c) konstruktor inicjalizujący wszystkie zmienne,
         d) stworzyć settery i gettery,
