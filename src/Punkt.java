@@ -16,6 +16,11 @@ public class Punkt {
         this.pY = pY;
         this.pZ = pZ;
     }
+    Punkt(int pX, int Pz, int Py){
+        this.pZ = pZ;
+        this.pX= pX;
+        this.pY=pY;
+    }
 
     public int GetX() {
         return pX;
@@ -42,7 +47,7 @@ public class Punkt {
     }
 
     public void suma() {
-        System.out.println("suma dodawania wynosi:");
+        System.out.println("suma dodawania wynosi:"+(pZ+pY+pX));
     }
 
     @Override
