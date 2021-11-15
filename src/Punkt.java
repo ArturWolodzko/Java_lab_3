@@ -2,21 +2,32 @@
 public class Punkt {
     /* stworzyć zmienne prywatne pX, pY, pZ */
 
-    private int pX,pY,pZ;
+    private int pX, pY, pZ;
 
-    Punkt(){
+    Punkt() {
 
     }
 
-    Punkt(int pX){
-        this.pX=pX;
-    }
-    Punkt(int pY,int pZ){
-        this.pY=pY;
-        this.pZ=pZ;
+    Punkt(int pX) {
+        this.pX = pX;
     }
 
-    public int GetX=
+    Punkt(int pY, int pZ) {
+        this.pY = pY;
+        this.pZ = pZ;
+    }
+
+    public int GetX() {
+        return pX;
+    }
+
+    public int GetY() {
+        return pY;
+    }
+
+    public int GetZ() {
+        return pZ;
+    }
 
 
 
