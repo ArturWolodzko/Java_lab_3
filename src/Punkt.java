@@ -16,7 +16,7 @@ public class Punkt {
         this.pZ=pZ;
     }
 
-    public void setpX=(pX);
+    public int GetX=
 
 
 
