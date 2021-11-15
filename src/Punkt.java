@@ -46,7 +46,7 @@ public class Punkt {
         this.pZ = z;
     }
 
-    public void suma() {
+    public int suma() {
         System.out.println("suma dodawania wynosi:"+(pZ+pY+pX));
     }
 
