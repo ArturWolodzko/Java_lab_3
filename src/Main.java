@@ -6,6 +6,9 @@ public class Main {
 
     public static void main(String[] args) {
 
+
+
+
         /* ćw 3 klasy */
 
         /*  zad.1 - Najpierw należy uzupełnić kod w klasie Punkt.java,

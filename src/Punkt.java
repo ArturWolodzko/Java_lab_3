@@ -26,12 +26,24 @@ public class Punkt {
     }
 
     public int GetZ() {
-        return pZ;
+        return pZ*10;
     }
 
-    public void setX(int x){
-
+    public void setX(int x) {
+        this.pX = x;
     }
+
+    public void setY(int y) {
+        this.pY = y;
+    }
+    public void setZ(int z){
+        this.pZ=z;
+    }
+
+    public void suma(){
+        System.out.println("suma dodawania wynosi:" + (pY+pX+pZ));
+    }
+
 
 
 
