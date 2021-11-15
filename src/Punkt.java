@@ -26,7 +26,7 @@ public class Punkt {
     }
 
     public int GetZ() {
-        return pZ*10;
+        return pZ * 10;
     }
 
     public void setX(int x) {
@@ -36,17 +36,23 @@ public class Punkt {
     public void setY(int y) {
         this.pY = y;
     }
-    public void setZ(int z){
-        this.pZ=z;
+
+    public void setZ(int z) {
+        this.pZ = z;
     }
 
-    public void suma(){
-        System.out.println("suma dodawania wynosi:" + (pY+pX+pZ));
+    public void suma() {
+        System.out.println("suma dodawania wynosi:" + (pY + pX + pZ));
     }
 
-
-
-
+    @Override
+    public String toString() {
+        return "Punkt{" +
+                "pX=" + pX +
+                ", pY=" + pY +
+                ", pZ=" + pZ +
+                '}';
+    }
     /* stworzyć
         a) pusty konstruktor,
 
