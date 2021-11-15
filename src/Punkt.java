@@ -2,6 +2,10 @@
 public class Punkt {
     /* stworzyć zmienne prywatne pX, pY, pZ */
 
+    private int pX,pY,pZ;
+
+
+
     /* stworzyć
         a) pusty konstruktor,
         b) konstruktor inicjalizujacy zmienną pX,
