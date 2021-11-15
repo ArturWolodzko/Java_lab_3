@@ -20,9 +20,10 @@ public class Main {
         System.out.println(punkt);
 
 
-        punkt.GetX();
-        punkt.GetY();
-        punkt.GetZ();
+        System.out.printf("X = %d\nY = %d\nZ = %d",punkt.GetX(),punkt.GetY(),punkt.GetZ());
+
+
+
 
 
 
