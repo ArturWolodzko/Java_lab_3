@@ -16,6 +16,8 @@ public class Punkt {
         this.pZ=pZ;
     }
 
+    public void setpX=(pX);
+
 
 
     /* stworzyć
