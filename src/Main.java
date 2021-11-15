@@ -63,6 +63,15 @@ public class Main {
         samochod.poj = 1.9;
         samochodList.add(samochod);
 
+        List<Mieszkanie> mieszkanieList= new ArrayList<>();
+
+        Mieszkanie mieszkanie = new Mieszkanie();
+        mieszkanie.woda=20;
+        mieszkanie.gaz=50;
+        mieszkanie.prąd=100;
+        mieszkanie.opłaty=mieszkanie.gaz+ mieszkanie.prąd+ mieszkanie.woda;
+        mieszkanieList.add(mieszkanie);
+
 
         for (Student s : studentList) {
             System.out.println("\nimię: " + s.imie + "\nnaziwsko: " + s.nazwiwsko + "\nwiek: " + s.wiek + "\nczy zdał: " +
@@ -91,5 +100,6 @@ class Samochod {
     int drzwi;
 
 }
+
 
 
