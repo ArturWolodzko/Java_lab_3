@@ -29,6 +29,10 @@ public class Punkt {
         return pZ;
     }
 
+    public void setX(int x){
+
+    }
+
 
 
     /* stworzyć
