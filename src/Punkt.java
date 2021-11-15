@@ -26,7 +26,7 @@ public class Punkt {
     }
 
     public int GetZ() {
-        return pZ * 10;
+        return (pZ * 10);
     }
 
     public void setX(int x) {

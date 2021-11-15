@@ -7,6 +7,24 @@ public class Main {
     public static void main(String[] args) {
 
         Punkt punktA= new Punkt(7);
+        punktA.toString();
+
+        Punkt punkt= new Punkt(1,2);
+        punkt.toString();
+        System.out.println(punkt);
+
+        punkt.setX(3);
+        punkt.setY(4);
+        punkt.setZ(5);
+        punkt.toString();
+        System.out.println(punkt);
+
+        punkt.GetX();
+        punkt.GetY();
+        punkt.GetZ();
+        System.out.println(punkt.GetZ());
+
+
 
 
 
