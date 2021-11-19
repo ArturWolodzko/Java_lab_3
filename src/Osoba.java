@@ -22,13 +22,21 @@ public class Osoba {
         this.indeks = indeks;
     }
 
-    public int GetImie
-
-    {
+    public String getImie(){
         return imie;
     }
 
-    ;
+    public String getNazwisko(){
+        return nazwisko;
+    }
+
+    public Integer getIndeks(){
+        return indeks;
+    }
+
+    public String
+
+
 
 
 }
