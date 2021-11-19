@@ -51,6 +51,10 @@ public class Punkt {
         return pX+pZ+pX;
     }
 
+    public int roznica(int x,int y, int z){
+        return pX*x  - pY*y - pZ*z ;
+    }
+
     @Override
     public String toString() {
         return "Punkt{" +

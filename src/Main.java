@@ -25,6 +25,10 @@ public class Main {
         p2.toString();
         System.out.println("\nsuma wynosi: "+ p2.suma());
 
+        Punkt p3 = new Punkt(4,5,6);
+        p3.toString();
+        System.out.println("wynik wynosi :" + p3.roznica(3,2,4));
+
 
 
 
