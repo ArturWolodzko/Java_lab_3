@@ -34,7 +34,9 @@ public class Osoba {
         return indeks;
     }
 
-    public String
+    public void setImie(){
+
+    }
 
 
 
