@@ -1,16 +1,10 @@
 public class Osoba {
 
-    private void  imie( String imie){
+    private String imie, nazwisko;
 
-    }
+    private Integer wiek;
 
-    private void naziwsko ( String nazwisko){
 
-    }
-
-    private void wiek(int wiek){
-
-    }
 
 
 }
