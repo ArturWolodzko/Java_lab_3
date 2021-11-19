@@ -1,11 +1,13 @@
+import java.util.ArrayList;
+import java.util.List;
+
 public class Main {
 
     public static void main(String[] args) {
         /* ćw 4 klasy */
 
 
-        Osoba artur = new Osoba("artur","wołodźko",24211);
-        System.out.println(artur.toString());;
+
 
         /* zad.1
             a) Stworzyć klasę Osoba z polami prywatnymi:
@@ -33,7 +35,35 @@ public class Main {
          */
 
 
+        Osoba student1 = new Osoba("artur", "wołodzko", 21421);
+        Osoba student2 = new Osoba("marek", "kubiak", 54213);
+        Osoba student3 = new Osoba("kacper", "medycyn", 24213);
+        Osoba student4 = new Osoba("tadeusz", "cylkowski", 12523);
+        Osoba student5 = new Osoba("marek", "ziolkowski", 07000);
 
+        Student student1a = new Student(student1, WydzialEnum.FIZYCZNY);
+        Student student2a = new Student(student2, WydzialEnum.MECHANICZNY);
+        Student student3a = new Student(student3, WydzialEnum.BIOLOGICZNY);
+        Student student4a = new Student(student4, WydzialEnum.CHEMICZNY);
+        Student student5a = new Student(student5, WydzialEnum.INFORMATYCZNY);
+
+
+        List<Student> studentList = new ArrayList<>();
+        studentList.add(student1a);
+        studentList.add(student2a);
+        studentList.add(student3a);
+        studentList.add(student4a);
+        studentList.add(student5a);
+
+        for (Student s : studentList
+        ) {
+            s.toString();
+            System.out.println("\n*****************************************\n");
+
+        }
 
     }
+
+
 }
+
