@@ -28,6 +28,10 @@ public class Main {
             c) przeiterować listę za pomocą pętli forEach wywołując na każdym objekcie metodę toString() (w każdej iteracji);
          */
 
+        Osoba osoba= new Osoba(){
+
+        }
+
 
     }
 }

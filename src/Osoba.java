@@ -34,11 +34,22 @@ public class Osoba {
         return indeks;
     }
 
-    public void setImie(){
-
+    public void setImie(String imie){
+        this.imie=imie;
+    }
+    public void setNazwisko(String nazwisko){
+        this.nazwisko=nazwisko;
+    }
+    public void setIndeks(int indeks){
+        this.indeks=indeks;
     }
 
-
-
-
+    @Override
+    public String toString() {
+        return "Osoba{" +
+                "imie='" + imie + '\'' +
+                ", nazwisko='" + nazwisko + '\'' +
+                ", indeks=" + indeks +
+                '}';
+    }
 }
