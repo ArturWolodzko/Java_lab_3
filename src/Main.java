@@ -3,6 +3,10 @@ public class Main {
     public static void main(String[] args) {
         /* ćw 4 klasy */
 
+
+        Osoba artur = new Osoba("artur","wołodźko",24211);
+        System.out.println(artur.toString());;
+
         /* zad.1
             a) Stworzyć klasę Osoba z polami prywatnymi:
             - imie (String),
@@ -28,9 +32,7 @@ public class Main {
             c) przeiterować listę za pomocą pętli forEach wywołując na każdym objekcie metodę toString() (w każdej iteracji);
          */
 
-        Osoba osoba= new Osoba(){
 
-        }
 
 
     }
