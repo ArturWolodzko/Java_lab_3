@@ -26,10 +26,9 @@ public class Main {
        pojazdList.add(audi1);
        pojazdList.add(giant);
 
-        for (String s: pojazdList
-             ) {
-
-        }
+        System.out.println(audi+"\n");
+        System.out.println(audi1+"\n");
+        System.out.println(giant+"\n");
 
     }
 }
