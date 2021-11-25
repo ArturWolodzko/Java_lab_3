@@ -51,16 +51,19 @@ public class Main {
          * w różnego rodzaju listach, selectach jako krótkie opcje wyboru np. jako status A, X (Aktualny, Usunięty) */
 
         Scanner skan = new Scanner(System.in);
-        System.out.println("podaj liczbę");
+        int a;
 
         while (true) {
-
-            dopisywanieLiczb(skan.nextInt());
-            System.out.println(StatusEnum.KONTYNUUJEMY);
-            if(skan.nextInt()==0){
+            System.out.println("podaj liczbę: ");
+            a=skan.nextInt();
+            if (a==0){
                 System.out.println(StatusEnum.KONIEC);
                 break;
+            }else {
+                dopisywanieLiczb(a);
+                System.out.println(StatusEnum.KONTYNUUJEMY);
             }
+
         }
 
 
