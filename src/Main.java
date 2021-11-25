@@ -20,15 +20,18 @@ public class Main {
         Pojazd audi = new Samochód("vw","golf",4,5,4);
         Pojazd audi1 = new SamochódSportowy("golf","vw",4,5,4,216,20);
         Pojazd giant = new Rower("giant","pro",2,21);
+        Pojazd autobus = new Autobus("star","turist",8,20,3,54,false);
 
        List<Pojazd> pojazdList = new ArrayList<>();
        pojazdList.add(audi);
        pojazdList.add(audi1);
        pojazdList.add(giant);
+       pojazdList.add(autobus);
 
         System.out.println(audi+"\n");
         System.out.println(audi1+"\n");
         System.out.println(giant+"\n");
+        System.out.println(autobus+"\n");
 
     }
 }
